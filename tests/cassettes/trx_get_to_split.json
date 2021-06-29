@@ -1,0 +1,389 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41077830?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "406"
+                    ],
+                    "Etag": [
+                        "W/\"196-IO9qNIOZ0ucChjKDocMkMbATve4\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:54:56 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41077830,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":null,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41078765?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "408"
+                    ],
+                    "Etag": [
+                        "W/\"198-q/wSpnUT+JPx4L6JFI0huIPiTK4\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:37 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41078765,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214038,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41078766?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "408"
+                    ],
+                    "Etag": [
+                        "W/\"198-pUFl4COKTSGkya6yDzF+PXtGU68\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:47 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41078766,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214038,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41079091?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "408"
+                    ],
+                    "Etag": [
+                        "W/\"198-2tnuedal3DhX0LvBkFkJYCFWJ6o\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:13 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41079091,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214038,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41079272?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "408"
+                    ],
+                    "Etag": [
+                        "W/\"198-pHhn4Txo15FtcuXfNOyhg7WClQo\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:27 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41079272,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214038,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41092784?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "408"
+                    ],
+                    "Etag": [
+                        "W/\"198-CfFNLdCsXxjS52bD377SMlunNGg\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 23:50:53 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":41092784,\"date\":\"2021-06-06\",\"payee\":\"Sushi House\",\"amount\":\"100.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214038,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null,\"original_name\":\"Sushi House\",\"type\":null,\"subtype\":null,\"fees\":null,\"price\":null,\"quantity\":null}"
+            }
+        }
+    ]
+}

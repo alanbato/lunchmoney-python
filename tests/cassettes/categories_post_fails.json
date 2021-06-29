@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "POST",
+                "uri": "https://dev.lunchmoney.app/v1/categories",
+                "body": "{\"name\": \"Really long nameeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\", \"description\": null, \"is_income\": false, \"exclude_from_budget\": false, \"exclude_from_totals\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "229"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "58"
+                    ],
+                    "Etag": [
+                        "W/\"3a-6VXtZ8BTAs+Dr4LO220GbJbMse8\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:04:38 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":\"Category name must be less than 40 characters.\"}"
+            }
+        }
+    ]
+}

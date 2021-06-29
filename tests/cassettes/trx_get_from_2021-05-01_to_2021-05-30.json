@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions?start_date=2021-05-01&end_date=2021-05-30&debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Etag": [
+                        "W/\"154e-hF5NDXqD1+kqpJD0QU7O0zLkvhM\""
+                    ],
+                    "Content-Encoding": [
+                        "gzip"
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 21:34:42 GMT"
+                    ],
+                    "Transfer-Encoding": [
+                        "chunked"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"transactions\":[{\"id\":37555761,\"date\":\"2021-05-01\",\"payee\":\"Monthly rent\",\"amount\":\"850.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214043,\"recurring_id\":111413,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"recurring_suggested\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555789,\"date\":\"2021-05-02\",\"payee\":\"Credit Card Payment\",\"amount\":\"-609.4500\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":37555798,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555798,\"date\":\"2021-05-03\",\"payee\":\"Credit Card Payment\",\"amount\":\"0\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":true,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555783,\"date\":\"2021-05-04\",\"payee\":\"Wildcraft\",\"amount\":\"31.7800\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214045,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555764,\"date\":\"2021-05-05\",\"payee\":\"Car insurance\",\"amount\":\"145.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214043,\"recurring_id\":111414,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"recurring_suggested\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555792,\"date\":\"2021-05-05\",\"payee\":\"Transfer to Credit Card\",\"amount\":\"609.4500\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":37555798,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555741,\"date\":\"2021-05-13\",\"payee\":\"The Lockhart\",\"amount\":\"8.5300\",\"currency\":\"usd\",\"notes\":\"After work drinks\",\"category_id\":214038,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":[{\"name\":\"{\\\"id\\\":14404}\",\"id\":14405}],\"external_id\":null},{\"id\":37555750,\"date\":\"2021-05-13\",\"payee\":\"Safeway\",\"amount\":\"44.9200\",\"currency\":\"usd\",\"notes\":\"Baking ingredients\",\"category_id\":214041,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555773,\"date\":\"2021-05-14\",\"payee\":\"The Golden Turtle\",\"amount\":\"31.4200\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214044,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555770,\"date\":\"2021-05-15\",\"payee\":\"Joe's Stone Crab\",\"amount\":\"15.8900\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214044,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":[{\"name\":\"{\\\"id\\\":14404}\",\"id\":14405}],\"external_id\":null},{\"id\":37555744,\"date\":\"2021-05-16\",\"payee\":\"Dreamers Coffee\",\"amount\":\"3.8700\",\"currency\":\"usd\",\"notes\":\"Hot chocolate\",\"category_id\":214039,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555786,\"date\":\"2021-05-18\",\"payee\":\"Direct Deposit\",\"amount\":\"-4500.0000\",\"currency\":\"usd\",\"notes\":\"Income\",\"category_id\":214047,\"recurring_id\":111411,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"recurring\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555758,\"date\":\"2021-05-21\",\"payee\":\"Foodpanda\",\"amount\":\"22.9700\",\"currency\":\"usd\",\"notes\":\"The Golden Turtle\",\"category_id\":214042,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555753,\"date\":\"2021-05-22\",\"payee\":\"Whole Foods\",\"amount\":\"12.7500\",\"currency\":\"usd\",\"notes\":\"Jenny's Potluck\",\"category_id\":214041,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555767,\"date\":\"2021-05-23\",\"payee\":\"Nunu Ethiopian Fusion\",\"amount\":\"28.6400\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214044,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555747,\"date\":\"2021-05-24\",\"payee\":\"Lyft\",\"amount\":\"10.5900\",\"currency\":\"usd\",\"notes\":\"To home\",\"category_id\":214040,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555777,\"date\":\"2021-05-24\",\"payee\":\"Tinker Watches\",\"amount\":\"30.3700\",\"currency\":\"cad\",\"notes\":null,\"category_id\":214045,\"recurring_id\":null,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555780,\"date\":\"2021-05-24\",\"payee\":\"The Seashirt\",\"amount\":\"39.1400\",\"currency\":\"cad\",\"notes\":null,\"category_id\":214045,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null}]}"
+            }
+        }
+    ]
+}

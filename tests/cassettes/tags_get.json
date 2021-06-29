@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/tags",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "213"
+                    ],
+                    "Etag": [
+                        "W/\"d5-nNh6Z+2pcYkeQ3LkRyCX7AVMyM0\""
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 19:11:03 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "[{\"id\":14402,\"name\":\"Penny&#x27;s\",\"description\":\"\"},{\"id\":14403,\"name\":\"Road Trip 2020\",\"description\":\"\"},{\"id\":14404,\"name\":\"Date Night\",\"description\":\"\"},{\"id\":14405,\"name\":\"{\\\"id\\\":14404}\",\"description\":null}]"
+            }
+        }
+    ]
+}

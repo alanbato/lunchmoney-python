@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "324"
+                    ],
+                    "Etag": [
+                        "W/\"144-rN4ebyJut6MMYMwZCFVsOseAi1s\""
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 21:41:13 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":37555760,\"date\":\"2021-06-01\",\"payee\":\"Monthly rent\",\"amount\":\"850.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214043,\"recurring_id\":111413,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"recurring_suggested\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null}"
+            }
+        }
+    ]
+}

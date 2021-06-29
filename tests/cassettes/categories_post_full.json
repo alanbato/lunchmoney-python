@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "POST",
+                "uri": "https://dev.lunchmoney.app/v1/categories",
+                "body": "{\"name\": \"Side Business\", \"description\": \"Extra money on the side, shh\", \"is_income\": true, \"exclude_from_budget\": true, \"exclude_from_totals\": true}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "content-length": [
+                        "149"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "22"
+                    ],
+                    "Etag": [
+                        "W/\"16-XVeQD2z3/MMF9y2QWqX1j6gfOKs\""
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 19:05:21 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"category_id\":214430}"
+            }
+        }
+    ]
+}

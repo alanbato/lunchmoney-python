@@ -1,0 +1,2455 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 19:07:26 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:04:38 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:05:47 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:06:36 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:08:07 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:44:13 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:44:29 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:47:28 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:53:45 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:55:59 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 20:59:03 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:00:34 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:01:21 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:02:23 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:26:45 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:27:15 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:27:36 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:28:36 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:29:08 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:29:36 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:51:12 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:51:49 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:52:35 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:52:53 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:54:56 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:59:16 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:59:35 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:00:01 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:00:30 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:01:19 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:37 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:46 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:13 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:26 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 23:50:53 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        }
+    ]
+}

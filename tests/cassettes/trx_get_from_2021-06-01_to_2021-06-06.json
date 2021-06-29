@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions?start_date=2021-06-01&end_date=2021-06-06&debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Etag": [
+                        "W/\"aef-z8bECBFmag/W6EfSMjft/exaZFU\""
+                    ],
+                    "Content-Encoding": [
+                        "gzip"
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 21:34:43 GMT"
+                    ],
+                    "Transfer-Encoding": [
+                        "chunked"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"transactions\":[{\"id\":37555760,\"date\":\"2021-06-01\",\"payee\":\"Monthly rent\",\"amount\":\"850.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214043,\"recurring_id\":111413,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"recurring_suggested\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555791,\"date\":\"2021-06-03\",\"payee\":\"Transfer to Credit Card\",\"amount\":\"710.4500\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":17665,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":37555799,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555799,\"date\":\"2021-06-03\",\"payee\":\"Credit Card Payment\",\"amount\":\"0\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":true,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555788,\"date\":\"2021-06-04\",\"payee\":\"Credit Card Payment\",\"amount\":\"-710.4500\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214046,\"recurring_id\":null,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":37555799,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555795,\"date\":\"2021-06-04\",\"payee\":\"Amazon\",\"amount\":\"18.9900\",\"currency\":\"usd\",\"notes\":\"New shower curtains\",\"category_id\":214043,\"recurring_id\":null,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":37555794,\"tags\":null,\"external_id\":null},{\"id\":37555796,\"date\":\"2021-06-04\",\"payee\":\"Amazon\",\"amount\":\"33.3100\",\"currency\":\"usd\",\"notes\":\"Candles and coloring book\",\"category_id\":214045,\"recurring_id\":null,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":37555794,\"tags\":null,\"external_id\":null},{\"id\":37555763,\"date\":\"2021-06-05\",\"payee\":\"Car insurance\",\"amount\":\"145.0000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214043,\"recurring_id\":111414,\"asset_id\":17663,\"plaid_account_id\":null,\"status\":\"recurring_suggested\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":null,\"external_id\":null},{\"id\":37555769,\"date\":\"2021-06-05\",\"payee\":\"Mayur Indian Kitchen\",\"amount\":\"13.0700\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214044,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":[{\"name\":\"{\\\"id\\\":14404}\",\"id\":14405}],\"external_id\":null},{\"id\":37555775,\"date\":\"2021-06-05\",\"payee\":\"Tondou Ramen\",\"amount\":\"13.9600\",\"currency\":\"usd\",\"notes\":null,\"category_id\":214044,\"recurring_id\":null,\"asset_id\":17664,\"plaid_account_id\":null,\"status\":\"cleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"tags\":[{\"name\":\"{\\\"id\\\":14404}\",\"id\":14405}],\"external_id\":null}]}"
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37748189?debit_as_negative=false",
+                "body": "",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.1"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "308"
+                    ],
+                    "Etag": [
+                        "W/\"134-TESU3Nxwhw4cyY+sDtzTwE/R8BI\""
+                    ],
+                    "Date": [
+                        "Tue, 08 Jun 2021 23:01:32 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"id\":37748189,\"date\":\"2021-06-06\",\"payee\":\"Cine Theater\",\"amount\":\"16.5000\",\"currency\":\"usd\",\"notes\":null,\"category_id\":null,\"recurring_id\":null,\"asset_id\":null,\"plaid_account_id\":null,\"status\":\"uncleared\",\"is_group\":false,\"group_id\":null,\"parent_id\":null,\"has_children\":null,\"tags\":null,\"external_id\":null}"
+            }
+        }
+    ]
+}

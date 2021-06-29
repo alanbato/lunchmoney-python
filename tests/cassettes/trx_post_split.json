@@ -1,0 +1,425 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41077830",
+                "body": "{\"transaction\": {\"amount\": 70, \"tags\": []}, \"debit_as_negative\": false, \"split\": {\"date\": \"2021-06-06\", \"amount\": 30}}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "118"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "42"
+                    ],
+                    "Etag": [
+                        "W/\"2a-qdnE8DGTVWm8CQVBcNpnmdR/7AE\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 21:52:53 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":[\"splits.map is not a function\"]}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41078765",
+                "body": "{\"transaction\": {\"date\": \"2021-06-06\", \"amount\": 70, \"payee\": \"Sushi House\", \"currency\": \"usd\", \"status\": \"uncleared\", \"category_id\": 214038}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "170"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:37 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41078766",
+                "body": "{\"transaction\": {\"date\": \"2021-06-06\", \"amount\": 70, \"payee\": \"Sushi House\", \"currency\": \"usd\", \"status\": \"uncleared\", \"category_id\": 214038}, \"debit_as_negative\": false, \"split\": {\"date\": \"2021-06-06\", \"category_id\": 214038, \"amount\": 30}}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "240"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "42"
+                    ],
+                    "Etag": [
+                        "W/\"2a-qdnE8DGTVWm8CQVBcNpnmdR/7AE\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:02:47 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":[\"splits.map is not a function\"]}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41079091",
+                "body": "{\"transaction\": {\"date\": \"2021-06-06\", \"amount\": 70, \"payee\": \"Sushi House\", \"currency\": \"usd\", \"status\": \"uncleared\", \"category_id\": 214038}, \"debit_as_negative\": false, \"split\": {\"date\": \"2021-06-06\", \"category_id\": 214038, \"amount\": 30}}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "240"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "42"
+                    ],
+                    "Etag": [
+                        "W/\"2a-qdnE8DGTVWm8CQVBcNpnmdR/7AE\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:14 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":[\"splits.map is not a function\"]}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41079272",
+                "body": "{\"transaction\": {\"date\": \"2021-06-06\", \"amount\": 70, \"payee\": \"Sushi House\", \"currency\": \"usd\", \"status\": \"uncleared\", \"category_id\": 214038}, \"debit_as_negative\": false, \"split\": {\"date\": \"2021-06-06\", \"category_id\": 214038, \"amount\": 30}}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "240"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "42"
+                    ],
+                    "Etag": [
+                        "W/\"2a-qdnE8DGTVWm8CQVBcNpnmdR/7AE\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 22:07:27 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":[\"splits.map is not a function\"]}"
+            }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/41092784",
+                "body": "{\"transaction\": {\"date\": \"2021-06-06\", \"amount\": 70, \"payee\": \"Sushi House\", \"currency\": \"usd\", \"status\": \"uncleared\", \"category_id\": 214038}, \"debit_as_negative\": false, \"split\": {\"date\": \"2021-06-06\", \"category_id\": 214038, \"amount\": 30}}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "240"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "42"
+                    ],
+                    "Etag": [
+                        "W/\"2a-qdnE8DGTVWm8CQVBcNpnmdR/7AE\""
+                    ],
+                    "Date": [
+                        "Mon, 28 Jun 2021 23:50:54 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"error\":[\"splits.map is not a function\"]}"
+            }
+        }
+    ]
+}
