@@ -2450,6 +2450,76 @@
                 },
                 "content": "{\"updated\":true}"
             }
+        },
+        {
+            "request": {
+                "method": "PUT",
+                "uri": "https://dev.lunchmoney.app/v1/transactions/37555760",
+                "body": "{\"transaction\": {\"date\": \"2021-06-01\", \"amount\": 851.0, \"payee\": \"New Payee\", \"currency\": \"usd\", \"category_id\": 214043, \"asset_id\": 17665}, \"debit_as_negative\": false}",
+                "headers": {
+                    "host": [
+                        "dev.lunchmoney.app"
+                    ],
+                    "accept": [
+                        "*/*"
+                    ],
+                    "accept-encoding": [
+                        "gzip, deflate"
+                    ],
+                    "connection": [
+                        "keep-alive"
+                    ],
+                    "user-agent": [
+                        "python-httpx/0.18.2"
+                    ],
+                    "content-length": [
+                        "167"
+                    ],
+                    "content-type": [
+                        "application/json"
+                    ],
+                    "authorization": [
+                        "XXXXXXX"
+                    ]
+                }
+            },
+            "response": {
+                "status_code": 200,
+                "http_version": "HTTP/1.1",
+                "headers": {
+                    "Server": [
+                        "Cowboy"
+                    ],
+                    "Connection": [
+                        "keep-alive"
+                    ],
+                    "X-Powered-By": [
+                        "Express"
+                    ],
+                    "Vary": [
+                        "Origin, Accept-Encoding"
+                    ],
+                    "Access-Control-Allow-Credentials": [
+                        "true"
+                    ],
+                    "Content-Type": [
+                        "application/json; charset=utf-8"
+                    ],
+                    "Content-Length": [
+                        "16"
+                    ],
+                    "Etag": [
+                        "W/\"10-dkPpo4JFIcQ3LWuPXbQ1isdU9JU\""
+                    ],
+                    "Date": [
+                        "Mon, 05 Jul 2021 19:17:02 GMT"
+                    ],
+                    "Via": [
+                        "1.1 vegur"
+                    ]
+                },
+                "content": "{\"updated\":true}"
+            }
         }
     ]
 }

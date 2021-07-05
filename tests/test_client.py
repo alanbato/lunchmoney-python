@@ -258,7 +258,7 @@ def _(client: LunchMoneyClient = client, trx_id=37555760):
     trx.payee = "New Payee"
     trx.amount += 1
     trx.status = None
-    with my_vcr.use_cassette(f"trx_update_{trx_id}", record_mode="all"):
+    with my_vcr.use_cassette(f"trx_update_{trx_id}"):
         response = client.update_transaction(trx_id, trx)
     assert response["updated"]
 
@@ -290,13 +290,13 @@ def _(client: LunchMoneyClient = client):
         "category_id": categories[0].id,
         "tags": [],
     }
-    with my_vcr.use_cassette("trx_post_to_split", record_mode="all"):
+    with my_vcr.use_cassette("trx_post_to_split"):
         trx_ids = client.insert_transaction(trx_data)
     trx_id = trx_ids[0]
-    with my_vcr.use_cassette("trx_get_to_split", record_mode="all"):
+    with my_vcr.use_cassette("trx_get_to_split"):
         trx = client.transaction(trx_id)
     trx.amount = 70
-    with my_vcr.use_cassette("trx_post_split", record_mode="all"):
+    with my_vcr.use_cassette("trx_post_split"):
         data = client.update_transaction(
             transaction_id=trx_id,
             transaction=trx,
