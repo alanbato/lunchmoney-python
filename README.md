@@ -1,5 +1,8 @@
 # lunchmoney
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/alanbato/lunchmoney-python/main.svg)](https://results.pre-commit.ci/latest/github/alanbato/lunchmoney-python/main)
+
+
 This library is a Python client for the [Lunch Money](https://lunchmoney.app) API.
 
 This software is considered to be in Alpha state, as all endpoints of the API have not yet been implemented.
